@@ -5,15 +5,15 @@ Namespace("pokekata").Pokedex = function() {
     this.index = {};
     this.pokedex = [];
     this.addSpecies(new pokekata.Species(1, "meerkat:///jterrace/pokemon/001_bulbasaur.dae/optimized/0/001_bulbasaur.dae"));
-    this.addSpecies(new pokekata.Species(2, "meerkat:///jterrace/pokemon/002_ivysaur.dae/optimized/0/002_ivysaur.dae"));
-    this.addSpecies(new pokekata.Species(3, "meerkat:///jterrace/pokemon/003_venusaur.dae/optimized/0/003_venusaur.dae"));
+    this.addSpecies(new pokekata.Species(2, "meerkat:///jterrace/pokemon/002_ivysaur.dae/optimized/1/002_ivysaur.dae"));
+    this.addSpecies(new pokekata.Species(3, "meerkat:///jterrace/pokemon/003_venusaur.dae/optimized/1/003_venusaur.dae"));
     this.addSpecies(new pokekata.Species(4, "meerkat:///jterrace/pokemon/004_charmander.dae/optimized/0/004_charmander.dae"));
     this.addSpecies(new pokekata.Species(7, "meerkat:///jterrace/pokemon/007_squirtle.dae/optimized/0/007_squirtle.dae"));
     this.addSpecies(new pokekata.Species(10, "meerkat:///jterrace/pokemon/010_caterpie.dae/optimized/0/010_caterpie.dae"));
     this.addSpecies(new pokekata.Species(13, "meerkat:///jterrace/pokemon/013_weedle.dae/optimized/0/013_weedle.dae"));
     this.addSpecies(new pokekata.Species(16, "meerkat:///jterrace/pokemon/016_pidgey.dae/optimized/0/016_pidgey.dae"));
     this.addSpecies(new pokekata.Species(23, "meerkat:///jterrace/pokemon/023_ekans.dae/optimized/0/023_ekans.dae"));
-    this.addSpecies(new pokekata.Species(25, "meerkat:///jterrace/025_pikachu/025_pikachu.dae/optimized/0/025_pikachu.dae"));
+    this.addSpecies(new pokekata.Species(25, "meerkat:///jterrace/pokemon/025_pikachu.dae/optimized/0/025_pikachu.dae"));
     this.addSpecies(new pokekata.Species(26, "meerkat:///jterrace/pokemon/026_raichu.dae/optimized/0/026_raichu.dae"));
     this.addSpecies(new pokekata.Species(35, "meerkat:///jterrace/pokemon/035_clefairy.dae/optimized/0/035_clefairy.dae"));
     this.addSpecies(new pokekata.Species(39, "meerkat:///jterrace/pokemon/jigglypuff.dae/optimized/0/jigglypuff.dae"));
