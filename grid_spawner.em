@@ -26,16 +26,16 @@ Namespace("pokekata").GridSpawner = function(centerPosition, radius, numCells, n
     }
     this.spawnedBlocks = new Array();
     
-    this.spawnCheckTimer = new std.core.RepeatingTimer(5, std.core.bind(this.spawnCheck, this));
+    this.spawnCheckTimer = new std.core.RepeatingTimer(2, std.core.bind(this.spawnCheck, this));
 };
 
 pokekata.GridSpawner.prototype.spawnCheck = function() {
-    system.print("allocated grid blocks = " + this.spawnedBlocks.length + "/" + this.numActive + " (" + this.numCells + ")\n");
+    system.print("Allocated grid blocks = " + this.spawnedBlocks.length + "/" + this.numActive + " (total " + this.numCells + ")\n");
     
     if (this.spawnedBlocks.length < this.numActive) {
         var randLoc = Math.floor(Math.random() * this.freeBlocks.length);
         var gridLoc = this.freeBlocks.splice(randLoc, 1)[0];
-        system.prettyprint(gridLoc);
+        system.prettyprint("Allocating grid block at location: ", gridLoc);
         var gridBlock = pokekata.GridBlock(<gridLoc['x'], 0, gridLoc['z']>, this.blockWidth);
         this.spawnedBlocks.push(gridBlock);
     }
