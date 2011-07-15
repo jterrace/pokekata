@@ -35,6 +35,12 @@ pokekata.Pokedex.prototype.getByNumber = function(num) {
     }
 };
 
+pokekata.Pokedex.prototype.getRandomSpecies = function() {
+    return this.pokedex[Math.floor(Math.random() * this.pokedex.length)];
+};
+
 pokekata.Pokedex.prototype.getArray = function() {
     return this.pokedex;
 };
+
+pokekata.sPokedex = new pokekata.Pokedex();
