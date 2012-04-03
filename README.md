@@ -5,4 +5,5 @@ Pokekata is an attempt to have a pokemon-like game running on Sirikata using the
 
 Running
 -------
-./cppoh --object-factory-opts="--db=pokescene.db"
+
+    ./cppoh --object-factory-opts="--db=pokescene.db"
